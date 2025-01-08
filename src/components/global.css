@@ -1,0 +1,12 @@
+.underline {
+  position: absolute; /* Pastikan posisinya absolut terhadap elemen induk */
+  left: 50%; /* Tempatkan di tengah */
+  right: 50%; /* Bikin kiri dan kanan sama besar */
+  bottom: 0; /* Letakkan di bagian bawah teks */
+  height: 2px; /* Ketebalan garis bawah */
+  background-color: #ffe082; /* Warna garis bawah */
+  transform: translateX(
+    -50%
+  ); /* Posisikan garis bawah di tengah secara horizontal */
+  transition: all 0.3s ease; /* Transisi halus */
+}
